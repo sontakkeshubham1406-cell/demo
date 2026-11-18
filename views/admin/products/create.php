@@ -219,7 +219,7 @@ function variantMatrixBuilder() {
                     let sizeName = sizeObj ? sizeObj.name : 'SZ';
                     
                     let shortProd = this.productName ? this.productName.substring(0, 4).toUpperCase().replace(/[^A-Z]/g, '') : 'GAR';
-                    let sku = `VEL-${shortProd}-${colorPrefix}-${sizeName}`;
+                    let sku = `DEMO-${shortProd}-${colorPrefix}-${sizeName}`;
 
                     rows.push({
                         color_id: cId,

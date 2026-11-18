@@ -40,7 +40,7 @@
                         class="flex-1 py-1.5 bg-white border border-subtleBorder text-[11px] font-semibold text-obsidian rounded hover:bg-neutral-100">
                     Customer Demo
                 </button>
-                <button type="button" onclick="document.getElementById('loginEmail').value='admin@velorisluxe.com';document.getElementById('loginPassword').value='Admin@123';" 
+                <button type="button" onclick="document.getElementById('loginEmail').value='admin@demo.com';document.getElementById('loginPassword').value='Admin@123';" 
                         class="flex-1 py-1.5 bg-white border border-subtleBorder text-[11px] font-semibold text-champagne rounded hover:bg-neutral-100">
                     Admin Demo
                 </button>
@@ -48,7 +48,7 @@
         </div>
 
         <div class="text-center text-xs text-mutedText pt-2 border-t border-subtleBorder">
-            New to VELORIS LUXE? 
+            New to DEMO? 
             <a href="/register" class="text-obsidian font-bold underline ml-1">Create an Account</a>
         </div>
     </div>

@@ -39,7 +39,7 @@ if (!empty($product['discount_price']) && $product['discount_price'] < $product[
     <div class="p-4 flex flex-col flex-grow">
         <!-- Brand & Category -->
         <div class="flex items-center justify-between text-[11px] uppercase tracking-[0.15em] text-mutedText font-medium mb-1">
-            <span><?= htmlspecialchars($product['brand_name'] ?? 'VELORIS') ?></span>
+            <span><?= htmlspecialchars($product['brand_name'] ?? 'DEMO') ?></span>
             <span><?= htmlspecialchars($product['category_name'] ?? '') ?></span>
         </div>
 

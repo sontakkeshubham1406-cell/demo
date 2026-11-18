@@ -21,7 +21,7 @@
             "We reject transient fast-fashion cycles. A garment should earn its rightful place in your wardrobe across decades, growing softer and more personal with each passing season."
         </p>
         <p>
-            At <strong>VELORIS LUXE</strong>, every silhouette begins with raw natural fibers. We source pure flax from Normandy, 22-Momme Grade 6A Mulberry silk from certified ethical sericultures, rigid shuttle-loom selvedge denim from Okayama, Japan, and heavy zero-twist cottons.
+            At <strong>DEMO</strong>, every silhouette begins with raw natural fibers. We source pure flax from Normandy, 22-Momme Grade 6A Mulberry silk from certified ethical sericultures, rigid shuttle-loom selvedge denim from Okayama, Japan, and heavy zero-twist cottons.
         </p>
         <p>
             Each piece is constructed with single-needle French seams, genuine mother-of-pearl buttons, and tailored proportions that balance effortless comfort with architectural precision.

@@ -15,11 +15,11 @@ define('DB_USERNAME', getenv('DB_USERNAME') ?: 'root');
 define('DB_PASSWORD', getenv('DB_PASSWORD') ?: '');
 
 // Store Identity & Branding
-define('STORE_NAME', 'VELORIS LUXE');
+define('STORE_NAME', 'DEMO');
 define('STORE_TAGLINE', 'Modern Minimalist Luxury Fashion');
 define('STORE_CURRENCY_SYMBOL', '₹');
 define('STORE_CURRENCY_CODE', 'INR');
-define('STORE_SUPPORT_EMAIL', 'concierge@velorisluxe.com');
+define('STORE_SUPPORT_EMAIL', 'concierge@demo.com');
 define('STORE_PHONE', '+91 98765 43210');
 define('STORE_GSTIN', '27AABCU9603R1ZM');
 

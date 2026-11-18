@@ -38,7 +38,7 @@ if (!$order) {
         <div class="flex justify-between items-start pb-8 border-b-2 border-neutral-900">
             <div>
                 <h1 class="text-2xl font-serif font-bold text-neutral-900 uppercase tracking-widest"><?= STORE_NAME ?></h1>
-                <p class="text-[11px] text-neutral-500 mt-1">VELORIS LUXE Private Limited</p>
+                <p class="text-[11px] text-neutral-500 mt-1">DEMO Private Limited</p>
                 <p class="text-[11px] text-neutral-500">Level 8, Signature Towers, BKC, Mumbai - 400051</p>
                 <p class="text-[11px] text-neutral-500"><strong>GSTIN:</strong> <?= STORE_GSTIN ?> | State: 27-Maharashtra</p>
             </div>

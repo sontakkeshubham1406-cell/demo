@@ -1,7 +1,7 @@
 <?php
 /**
  * Master Application Front Controller & Dispatcher
- * VELORIS LUXE Haute Couture Platform
+ * DEMO Haute Couture Platform
  */
 
 require_once __DIR__ . '/../config/config.php';
@@ -342,7 +342,7 @@ if ($uri === '/register') {
                 'phone' => $phone,
                 'password' => $password
             ]);
-            flash('success', 'Welcome to the VELORIS LUXE private atelier!');
+            flash('success', 'Welcome to the DEMO private atelier!');
             $target = $_SESSION['redirect_after_login'] ?? '/catalog';
             unset($_SESSION['redirect_after_login']);
             header("Location: " . $target);

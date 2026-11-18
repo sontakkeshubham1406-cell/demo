@@ -33,7 +33,7 @@
         <form action="/admin/login" method="POST" class="space-y-4 text-xs">
             <div>
                 <label class="block font-semibold text-slate-300 mb-1">Administrative Email</label>
-                <input type="email" name="email" id="adminEmail" required placeholder="admin@velorisluxe.com" 
+                <input type="email" name="email" id="adminEmail" required placeholder="admin@demo.com" 
                        class="w-full px-4 py-3 bg-slate-800 border border-slate-700 text-white rounded-xl focus:outline-none focus:border-amber-500">
             </div>
 
@@ -50,9 +50,9 @@
 
         <div class="bg-slate-800/80 p-4 rounded-xl border border-slate-700/60 text-center space-y-2">
             <p class="text-[11px] font-bold text-slate-300 uppercase tracking-wider">Demo Super Admin Access</p>
-            <button type="button" onclick="document.getElementById('adminEmail').value='admin@velorisluxe.com';document.getElementById('adminPassword').value='Admin@123';"
+            <button type="button" onclick="document.getElementById('adminEmail').value='admin@demo.com';document.getElementById('adminPassword').value='Admin@123';"
                     class="w-full py-2 bg-slate-700 hover:bg-slate-600 text-amber-300 rounded-lg text-xs font-mono font-semibold transition-colors">
-                Auto-Fill: admin@velorisluxe.com / Admin@123
+                Auto-Fill: admin@demo.com / Admin@123
             </button>
         </div>
 

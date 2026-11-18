@@ -113,7 +113,7 @@ $currentUser = \App\Services\AuthService::getCurrentUser();
                                 <a href="/login" class="block w-full py-2 bg-obsidian text-white rounded text-center font-medium hover:bg-slateDark">
                                     Sign In
                                 </a>
-                                <p class="mt-2 text-mutedText">New to VELORIS LUXE? <a href="/register" class="text-champagne underline">Register</a></p>
+                                <p class="mt-2 text-mutedText">New to DEMO? <a href="/register" class="text-champagne underline">Register</a></p>
                             </div>
                             <div class="border-t border-subtleBorder mt-2 pt-2">
                                 <a href="/admin/login" class="flex items-center gap-2 px-4 py-2 text-mutedText hover:text-obsidian hover:bg-[#FAF9F6]">

@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?= htmlspecialchars($pageTitle ?? STORE_NAME . ' | ' . STORE_TAGLINE) ?></title>
-    <meta name="description" content="<?= htmlspecialchars($metaDescription ?? 'Explore handcrafted luxury apparel, pure European linens, and architectural streetwear at VELORIS LUXE.') ?>">
+    <meta name="description" content="<?= htmlspecialchars($metaDescription ?? 'Explore handcrafted luxury apparel, pure European linens, and architectural streetwear at DEMO.') ?>">
     
     <!-- Google Fonts: Playfair Display (Serif Editorial) + Plus Jakarta Sans (Clean Modern Sans) -->
     <link rel="preconnect" href="https://fonts.googleapis.com">

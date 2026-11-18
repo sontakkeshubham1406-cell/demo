@@ -61,7 +61,7 @@ $products = \App\Database\Database::query("
                             </td>
                             <td class="py-3.5 px-4 text-slate-600">
                                 <p class="font-semibold text-slate-800"><?= htmlspecialchars($p['category_name']) ?></p>
-                                <p class="text-[11px] text-slate-400"><?= htmlspecialchars($p['brand_name'] ?? 'VELORIS') ?></p>
+                                <p class="text-[11px] text-slate-400"><?= htmlspecialchars($p['brand_name'] ?? 'DEMO') ?></p>
                             </td>
                             <td class="py-3.5 px-4 font-mono font-bold text-slate-500">
                                 <?= STORE_CURRENCY_SYMBOL ?><?= number_format($p['base_price'], 2) ?>

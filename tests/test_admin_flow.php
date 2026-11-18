@@ -9,7 +9,7 @@ $ch = curl_init('http://127.0.0.1:8000/admin/login');
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
 curl_setopt($ch, CURLOPT_POST, true);
 curl_setopt($ch, CURLOPT_POSTFIELDS, http_build_query([
-    'email' => 'admin@velorisluxe.com',
+    'email' => 'admin@demo.com',
     'password' => 'Admin@123'
 ]));
 curl_setopt($ch, CURLOPT_COOKIEJAR, $cookieFile);

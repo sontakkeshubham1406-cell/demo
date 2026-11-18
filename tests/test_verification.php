@@ -6,7 +6,7 @@ require_once __DIR__ . '/../app/Services/CatalogService.php';
 use App\Database\Database;
 use App\Services\CatalogService;
 
-echo "=== VELORIS LUXE CATALOG & IMAGE AUDIT ===\n";
+echo "=== DEMO CATALOG & IMAGE AUDIT ===\n";
 $categories = Database::query("SELECT id, name, slug FROM categories ORDER BY id ASC");
 $totalProducts = 0;
 $totalImages = 0;
@@ -32,7 +32,7 @@ echo "Total Products: {$totalProducts}\n";
 echo "Total Product Images: {$totalImages}\n";
 
 // Verify Admin account
-$admin = Database::fetchOne("SELECT id, name, email, role_id, is_active FROM users WHERE email = 'admin@velorisluxe.com'");
+$admin = Database::fetchOne("SELECT id, name, email, role_id, is_active FROM users WHERE email = 'admin@demo.com'");
 echo "Super Admin Account: " . ($admin ? "Found (ID {$admin['id']}, Name: {$admin['name']})" : "NOT FOUND") . "\n";
 
 // Verify Customer account

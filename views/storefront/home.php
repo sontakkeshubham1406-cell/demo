@@ -158,7 +158,7 @@ $departments = \App\Database\Database::query("SELECT * FROM categories WHERE par
                 "We do not design for the season. We tailor for permanence."
             </h2>
             <p class="text-xs sm:text-sm text-neutral-300 font-light leading-relaxed">
-                Every VELORIS LUXE garment begins in Normandy, Portugal, and Okayama with raw organic fibres. No artificial synthetics, no fast-fashion shortcuts—only noble textiles cut to architectural perfection.
+                Every DEMO garment begins in Normandy, Portugal, and Okayama with raw organic fibres. No artificial synthetics, no fast-fashion shortcuts—only noble textiles cut to architectural perfection.
             </p>
             <div class="pt-2">
                 <a href="/pages/about-us" class="inline-block px-7 py-3 bg-champagne text-obsidian text-xs font-bold uppercase tracking-[0.2em] rounded hover:bg-white transition-colors">

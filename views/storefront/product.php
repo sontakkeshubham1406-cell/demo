@@ -74,7 +74,7 @@ $imagesJson = json_encode($product['images']);
             <!-- Brand & Title -->
             <div class="border-b border-subtleBorder pb-6">
                 <span class="text-xs uppercase tracking-[0.2em] text-champagne font-bold">
-                    <?= htmlspecialchars($product['brand_name'] ?? 'VELORIS Atelier') ?>
+                    <?= htmlspecialchars($product['brand_name'] ?? 'Demo Atelier') ?>
                 </span>
                 <h1 class="font-serif text-2xl sm:text-3xl font-bold text-obsidian mt-1 leading-snug">
                     <?= htmlspecialchars($product['name']) ?>

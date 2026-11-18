@@ -6,3 +6,4 @@
 
 // Route to front controller
 require_once __DIR__ . '/../public/index.php';
+

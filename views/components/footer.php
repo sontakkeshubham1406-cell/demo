@@ -5,7 +5,7 @@
         <div class="grid grid-cols-1 md:grid-cols-2 gap-12 pb-16 border-b border-neutral-800">
             <div>
                 <span class="text-[10px] font-bold tracking-[0.25em] text-champagne uppercase">Private Atelier Membership</span>
-                <h3 class="font-serif text-2xl sm:text-3xl font-bold mt-2 text-white">Join the VELORIS Circle</h3>
+                <h3 class="font-serif text-2xl sm:text-3xl font-bold mt-2 text-white">Join the DEMO Circle</h3>
                 <p class="text-xs text-neutral-400 mt-2 max-w-md leading-relaxed">
                     Receive confidential previews of upcoming seasonal drops, private capsule collections, and bespoke styling edits.
                 </p>
@@ -62,7 +62,7 @@
             <div class="space-y-3">
                 <h4 class="font-bold text-white uppercase tracking-[0.2em] text-[11px]">Headquarters</h4>
                 <p class="leading-relaxed">
-                    VELORIS LUXE Atelier<br>
+                    DEMO Atelier<br>
                     Level 8, Signature Towers, Bandra Kurla Complex (BKC)<br>
                     Mumbai, Maharashtra 400051<br>
                     GSTIN: <?= STORE_GSTIN ?>

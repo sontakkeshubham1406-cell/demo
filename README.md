@@ -1,6 +1,6 @@
-# VELORIS LUXE — Haute Couture eCommerce Platform
+# DEMO — Haute Couture eCommerce Platform
 
-Welcome to **VELORIS LUXE**, an enterprise-grade, modern, and minimalist luxury clothing eCommerce platform handcrafted with **PHP**, **Tailwind CSS**, **Alpine.js**, and integrated with **Razorpay Payment Gateway**.
+Welcome to **DEMO**, an enterprise-grade, modern, and minimalist luxury clothing eCommerce platform handcrafted with **PHP**, **Tailwind CSS**, **Alpine.js**, and integrated with **Razorpay Payment Gateway**.
 
 ---
 
@@ -43,8 +43,8 @@ php -S 127.0.0.1:8000 -t public
 ### Demo Credentials
 | Role | Email | Password |
 |---|---|---|
-| **Super Admin** | `admin@velorisluxe.com` | `Admin@123` |
-| **Catalog Manager** | `manager@velorisluxe.com` | `Manager@123` |
+| **Super Admin** | `admin@demo.com` | `Admin@123` |
+| **Catalog Manager** | `manager@demo.com` | `Manager@123` |
 | **Customer** | `customer@example.com` | `Customer@123` |
 
 *(Quick 1-click Auto-Fill buttons are available on login pages).*
@@ -54,4 +54,4 @@ php -S 127.0.0.1:8000 -t public
 ## ☁️ Deployment
 
 - **Vercel**: Configured via `vercel.json` with the `vercel-php` serverless runtime and auto-syncing SQLite database.
-- **GitHub Repository**: [https://github.com/sontakkeshubham1406-cell/veloris-luxe](https://github.com/sontakkeshubham1406-cell/veloris-luxe)
+- **GitHub Repository**: [https://github.com/sontakkeshubham1406-cell/demo](https://github.com/sontakkeshubham1406-cell/demo)

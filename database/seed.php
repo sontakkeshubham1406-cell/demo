@@ -38,7 +38,7 @@ $users = [
     [
         'role_id' => 1, // Super Admin
         'name' => 'Alexander Vance',
-        'email' => 'admin@velorisluxe.com',
+        'email' => 'admin@demo.com',
         'phone' => '+919876543200',
         'password_hash' => $adminPassword,
         'is_active' => 1,
@@ -46,7 +46,7 @@ $users = [
     [
         'role_id' => 3, // Product Manager
         'name' => 'Elena Rostova',
-        'email' => 'manager@velorisluxe.com',
+        'email' => 'manager@demo.com',
         'phone' => '+919876543201',
         'password_hash' => $adminPassword,
         'is_active' => 1,
@@ -89,7 +89,7 @@ foreach ($users as $user) {
 
 // 3. Brands
 $brands = [
-    ['name' => 'VELORIS Atelier', 'slug' => 'veloris-atelier', 'description' => 'Flagship minimalist luxury fashion handcrafted from noble textiles.'],
+    ['name' => 'Demo Atelier', 'slug' => 'demo-atelier', 'description' => 'Flagship minimalist luxury fashion handcrafted from noble textiles.'],
     ['name' => 'Linen & Co', 'slug' => 'linen-and-co', 'description' => 'Pure breathable European linen tailored for effortless living.'],
     ['name' => 'Noir Studio', 'slug' => 'noir-studio', 'description' => 'Contemporary urban tailoring with sharp Japanese silhouettes.'],
     ['name' => 'Celestial Silk', 'slug' => 'celestial-silk', 'description' => 'Heritage handwoven Mulberry silks and festive ethnic wear.'],
@@ -217,7 +217,7 @@ $catalog = [
     ],
     [
         'category_id' => $catMap['men-shirts'] ?? 5,
-        'brand_id' => $brandMap['veloris-atelier'] ?? 1,
+        'brand_id' => $brandMap['demo-atelier'] ?? 1,
         'name' => 'Classic Oxford Cotton Button-Down',
         'slug' => 'classic-oxford-cotton-button-down',
         'short_description' => 'Two-ply combed Supima cotton woven in a durable royal oxford basketweave.',
@@ -244,7 +244,7 @@ $catalog = [
     // -------------------------------------------------------------
     [
         'category_id' => $catMap['men-tshirts'] ?? 6,
-        'brand_id' => $brandMap['veloris-atelier'] ?? 1,
+        'brand_id' => $brandMap['demo-atelier'] ?? 1,
         'name' => 'Heavyweight 280 GSM Structured Boxy Tee',
         'slug' => 'heavyweight-structured-boxy-tee',
         'short_description' => 'Ultra-dense combed organic cotton with dropped shoulders and a durable ribbed neckline.',
@@ -317,7 +317,7 @@ $catalog = [
     ],
     [
         'category_id' => $catMap['men-trousers'] ?? 7,
-        'brand_id' => $brandMap['veloris-atelier'] ?? 1,
+        'brand_id' => $brandMap['demo-atelier'] ?? 1,
         'name' => 'Tailored Slim-Fit Cotton Chinos',
         'slug' => 'tailored-slim-fit-cotton-chinos',
         'short_description' => 'Micro-sanded stretch twill with clean welt rear pockets.',
@@ -394,7 +394,7 @@ $catalog = [
     // -------------------------------------------------------------
     [
         'category_id' => $catMap['women-dresses'] ?? 9,
-        'brand_id' => $brandMap['veloris-atelier'] ?? 1,
+        'brand_id' => $brandMap['demo-atelier'] ?? 1,
         'name' => 'Pure Mulberry Silk Bias-Cut Midi Slip Dress',
         'slug' => 'silk-bias-cut-midi-dress',
         'short_description' => 'Effortlessly sensual bias-cut silk dress that glides gracefully along the natural contours of the body.',
@@ -494,7 +494,7 @@ $catalog = [
     // -------------------------------------------------------------
     [
         'category_id' => $catMap['women-tops'] ?? 11,
-        'brand_id' => $brandMap['veloris-atelier'] ?? 1,
+        'brand_id' => $brandMap['demo-atelier'] ?? 1,
         'name' => 'Silk Georgette Tie-Neck Lavallière Blouse',
         'slug' => 'silk-georgette-tie-neck-blouse',
         'short_description' => 'Ethereal sheer georgette with French cuffs and an elegant neck scarf tie.',
@@ -698,7 +698,7 @@ foreach ($catalog as $item) {
             $sizeRow = Database::fetchOne("SELECT name FROM sizes WHERE id = ?", [$sId]);
             $sCode = $sizeRow['name'] ?? 'SZ';
 
-            $sku = sprintf("VEL-%03d-%s-%s", $productId, $cPrefix, $sCode);
+            $sku = sprintf("DEMO-%03d-%s-%s", $productId, $cPrefix, $sCode);
 
             $existingVar = Database::fetchOne("SELECT id FROM product_variants WHERE product_id = ? AND size_id = ? AND color_id = ?", [$productId, $sId, $cId]);
             if (!$existingVar) {

@@ -257,7 +257,7 @@ function checkoutManager(cartTotals) {
                 // If sandbox simulation mode or live Razorpay modal
                 if (data.is_sandbox) {
                     // Seamless instant simulation popup for local sandbox testing
-                    if (confirm(`VELORIS LUXE Payment Gateway (Sandbox Mode)\n\nOrder: ${data.order_number}\nPayable: ₹${(data.amount_in_paise / 100).toFixed(2)}\n\nSimulate Successful Razorpay Payment?`)) {
+                    if (confirm(`DEMO Payment Gateway (Sandbox Mode)\n\nOrder: ${data.order_number}\nPayable: ₹${(data.amount_in_paise / 100).toFixed(2)}\n\nSimulate Successful Razorpay Payment?`)) {
                         this.verifyPaymentOnBackend(data.order_id, data.razorpay_order_id, 'pay_MockPay_' + Date.now(), 'sandbox_valid_sig');
                     } else {
                         this.loading = false;
